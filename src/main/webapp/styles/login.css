@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.form-container h2{
+    text-transform: uppercase;
+
+}
+.form-control-sub{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.form-control-sub input{
+    background: rgba(148, 164, 220, 0.34);
+    outline: 0;
+    border: none;
+    width: 22rem;
+    height: 2.8rem;
+    padding-left: 5px;
+}
+.form-container button{
+    background: #496CE8;
+    height: 2.8rem;
+    width: 12rem;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    outline: 0;
+}

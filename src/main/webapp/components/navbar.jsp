@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 <body>
-
+<div class="nav-bar-container">
+    <h2>EMS</h2>
+    <h2>LOGOUT</h2>
+</div>
 </body>
 </html>

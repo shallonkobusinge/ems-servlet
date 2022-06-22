@@ -9,9 +9,22 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
 </head>
 <body>
-
-<h2>Login Page</h2>
+    <jsp:include page="./components/navbar.jsp"></jsp:include>
+    <div class="form-container ">
+        <h2 class="">Login</h2>
+        <div class="form-control-sub">
+            <label>Username</label>
+            <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-control-sub">
+            <label>Password</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <button>Submit</button>
+    </div>
 </body>
 </html>
